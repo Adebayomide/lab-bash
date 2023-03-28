@@ -1,0 +1,27 @@
+echo "hello world"
+mkdir new_dir
+rm -rf new_dir
+cd lorem
+cp sed.txt lorem-copy
+cp at.txt lorem.txt lorem-copy;
+cat sed.txt
+cd ./
+cd lorem
+cat at.txt
+cat lorem.txt
+head -n 3 sed.txt
+tail -n 3 sed.txt
+echo "Homo homini lupus" >> sed.txt
+tail -n 3 sed.txt
+sed -i 's/et/ET/g' at.txt
+whoami
+pwd
+ls -la *.txt
+cat lorem/sed.txt | wc -l
+
+read -p Ayo:  name
+echo $name
+read -p Ayomide:  dirname && mkdir $Ayo
+rm -r Ayomide
+
+mkdir Ayo && cd Ayo
